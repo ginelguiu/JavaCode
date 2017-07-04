@@ -50,10 +50,7 @@ public class Circle extends Shape{
         super.color=val;
         System.out.println("Super colour changed to:"+super.color);
     }
-    public void fillColour(float val)
-    {
-        super.saturation=val;
-    }
+
     @Override
     public String toString() {
         return "center= ("+this.xPos+","+this.yPos+") and radius="+this.radius;
